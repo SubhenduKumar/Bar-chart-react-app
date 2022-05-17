@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+/* * {
+    border: 1px solid black;
+} */
+
+* {
+    font-family: 'Times New Roman', Times, serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu {
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    border: 10px solid rgba(7, 6, 6, 0.1);
+    height: 80vh;
+    width: 70vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+    height: 80%;
+    width: 100%;
+    opacity: 0.6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
-.App-link {
-  color: #61dafb;
+.menu__image {
+    width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+    color: rgba(7, 6, 6, 0.8);
+    ;
+}
+
+h2 {
+    color: rgba(7, 6, 6, 0.8);
+}
+
+.menu__image__header {
+    /* padding: px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    color: rgba(7, 6, 6, 0.7);
+    font-size: 13px;
+}
+
+.menu__item {
+    width: 50%;
+}
+
+.menu__item__items {
+    width: 60%;
+    padding-left: 3em;
+    padding-top: 2em;
+    font-size: 1em;
+    color: rgba(7, 6, 6, 0.7);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    margin-top: 2em;
+}
+
+form>label,
+input {
+    /* padding: 0.1em; */
+    margin-bottom: 0.5em;
+}
+
+.menu__button {
+    width: 40%;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    color: white;
+    background-color: #24A0ED;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.chart {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+}
+
+.chart__button-last {
+    text-align: center;
+    font-size: 15px;
+    margin-right: 20px;
+    color: black;
+    background-color: #24A0ED;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none
 }
